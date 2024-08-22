@@ -40,6 +40,8 @@ class Solution {
                 }
                 // because of topo sort, we update adjacent node which are not been considered yet.
                 // after current node is finished, we will take adjacent node in future iteration.
+                 // kind of we will go level by level.
+                // first adj of src. then adj of adj.....
             }
 
         }
