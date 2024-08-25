@@ -50,7 +50,11 @@ class Solution
                 // although we can also use node's distance. we will only update if it is lesser in below if.
                 // instead of priority queue we could have also utilized normal queue.
                 // but reason behind using priority queue & distance from array is that for larger graph we can reduce few iteration.
-
+                
+                // NOTE (edit): some thought why we should use distance from node polled from queue instead of distance array.
+                // distance array stores kind of result.
+                // when we take distance from node we are taking distance from specific parent node (from perticular path). we are using node for exploration.
+                // there can be multiple path which we cannot maintain distance array. because distance array stores the path with minimum distance.
                 if(distance[node.des] + adjNode.wt <distance[adjNode.des]){
                     distance[adjNode.des]=distance[node.des] + adjNode.wt;
                     pq.add(new Pair(adjNode.des, distance[adjNode.des]));
