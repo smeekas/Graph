@@ -3,7 +3,7 @@ class Solution {
     int yd[]={1,-1,0,0};
     public List<Integer> numOfIslands(int rows, int cols, int[][] operators) {
         // since graph is changing and we want answer at change we will use DSU.
-
+        // bruteforce like solution will be after every node, do dfs/bfs to calculate number of islands.
         List<Integer> ans=new ArrayList<>();
         Disjoint dj=new Disjoint(rows*cols);
         // we treat every cell in matrix as node.
