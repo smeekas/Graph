@@ -13,3 +13,7 @@
 
 2092 Find All People With Secret
 - union find?
+  
+924 Minimize Malware Spread
+- dfs??
+
