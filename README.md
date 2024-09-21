@@ -10,3 +10,6 @@
 
 2101 Detonate the Maximum Bombs
 - n^3 solution is understable, how to do in n^2 ?
+
+2092 Find All People With Secret
+- union find?
