@@ -16,4 +16,8 @@
   
 924 Minimize Malware Spread
 - dfs??
+  
+1462 Course schedule 4
+- topo sort?
+- floyd warshall?
 
